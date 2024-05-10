@@ -24,4 +24,5 @@ vim.opt.sidescroll = 1
 vim.opt.scroll = 1
 vim.opt.linespace = 2
 vim.opt.guifont = "Source Code Pro:h11"
+vim.opt.mouse = "a"
 
