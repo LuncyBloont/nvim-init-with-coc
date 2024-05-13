@@ -12,7 +12,8 @@ def main():
     tmp = tk.Tk()
     tmp.withdraw()
     tmp.clipboard_clear()
-    tmp.clipboard_append(f"install {' '.join(pip_tools)}")
+    for pkg in pip_tools:
+        tmp.clipboard_append(f"pipx install {pkg}\n")
     tmp.update()
     time.sleep(0.35)
     tmp.update()
