@@ -12,7 +12,7 @@ def main():
     tmp = tk.Tk()
     tmp.withdraw()
     tmp.clipboard_clear()
-    tmp.clipboard_append(f"pip install {' '.join(pip_tools)}")
+    tmp.clipboard_append(f"install {' '.join(pip_tools)}")
     tmp.update()
     time.sleep(0.35)
     tmp.update()
